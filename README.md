@@ -1,7 +1,7 @@
 # primes
 This code shows a few methods of getting prime numbers using Common Lisp.  I started investigating this in order to solve some [Project Euler](https://projecteuler.net/) problems.
 
-This is experimental code to look into the following ways to implement three functions:
+This is experimental code I wrote to investigate different ways to implement three functions:
 1. PRIMEP - check if a number is a prime number or not.
 2. PRIME-VECTOR - return a vector of prime numbers in a range (between low/high values).
 3. PRIME-GENERATOR - return a closure that returns each prime number in a range.

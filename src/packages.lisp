@@ -5,6 +5,13 @@
     #:prime-vector
     #:prime-generator))
 
+(defpackage #:prime-maker
+  (:use #:common-lisp)
+  (:export
+    #:primep
+    #:prime-vector
+    #:prime-generator))
+
 (defpackage #:sieve
   (:use #:common-lisp)
   (:export
